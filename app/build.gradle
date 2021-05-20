@@ -43,6 +43,7 @@ android {
         pluginsMapConfiguration.set(
                 ["org.jetbrains.dokka.base.DokkaBase": """{ "separateInheritedMembers": true}"""]
         )
+        outputDirectory.set(file("../docs/html"))
     }
 }
 
